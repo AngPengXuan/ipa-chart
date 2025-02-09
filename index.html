@@ -57,9 +57,9 @@ SOFTWARE.
 				version of the chart</a> </p> -->
 
 		<!--[if !IE]><!-->
-		<button id="loadFontBtn" type="button" onclick="loadFontStylesheet(); return false;"
+		<!-- <button id="loadFontBtn" type="button" onclick="loadFontStylesheet(); return false;"
 			title="If don't have a font installed that can display all of the symbols in the IPA, click this button to load and immediately apply a font that does. Please be patient... it takes a moment to download.">Missing
-			some symbols? Apply Doulos SIL font</button>
+			some symbols? Apply Doulos SIL font</button> -->
 		<!--<![endif]-->
 
 
@@ -374,6 +374,59 @@ SOFTWARE.
 							onclick="playSound('ɑ')">ɑ</span>
 						<span title="U+0252: LATIN SMALL LETTER TURNED ALPHA" style="right:0.15%; top:84.84%"
 							onclick="playSound('ɒ')">ɒ</span>
+					</div>
+				</div>
+			</div>
+			<p class='caption'>Where symbols appear in pairs, the one to the right represents a rounded vowel.</p>
+		</div>
+
+		<div id="vowels">
+			<h2>Singapore English</h2>
+			<div id="vowelQuadrilateral">
+				<img id="vowelBackground" src="vowelBackground.png" alt="Vowel Quadrilateral" />
+				<!--<embed src="vowelQuadrilateral.svg" type="image/svg+xml" pluginspage="http://www.adobe.com/svg/viewer/install/" />-->
+				<div id="vowelLabels">
+					<span style="right:76%; top:0">Front</span>
+					<span style="right:40.5%; top:0">Central</span>
+					<span style="right:3.5%; top:0">Back</span>
+
+					<span style="left:0; top:11.2087912087912%">Close</span>
+					<span style="left:0; top:36.4835164835165%">Close-mid</span>
+					<span style="left:0; top:62.8571428571429%">Open-mid</span>
+					<span style="left:0; top:89.2307692307692%">Open</span>
+				</div>
+				<div id="vowelSymbols">
+					<div id="closeVowels">
+						<span title="U+0069: LATIN SMALL LETTER I" style="right:82.31%; top:6.81%;"
+							onclick="playSound('i')">i</span>
+
+
+						<span title="U+0075: LATIN SMALL LETTER U" style="right:0.15%; top:6.81%"
+							onclick="playSound('u')">u</span>
+					</div>
+					<div id="closeLaxVowels">
+					</div>
+					<div id="close-midVowels">
+						<span title="U+0065: LATIN SMALL LETTER E" style="right:69.85%; top:32.53%"
+							onclick="playSound('e')">e</span>
+						<span title="U+006F: LATIN SMALL LETTER O" style="right:0.15%; top:32.53%"
+							onclick="playSound('o')">o</span>
+					</div>
+					<div id="middleVowels">
+						<span title="U+0259: LATIN SMALL LETTER SCHWA" style="right:32.00%; top:45.27%"
+							onclick="playSound('ə')">ə</span>
+					</div>
+					<div id="open-midVowels">
+						<span title="U+025B: LATIN SMALL LETTER OPEN E" style="right:58.15%; top:58.90%"
+							onclick="playSound('ɛ')">ɛ</span>
+						<span title="U+0254: LATIN SMALL LETTER OPEN O" style="right:0.46%; top:58.90%"
+							onclick="playSound('ɔ')">ɔ</span>
+					</div>
+					<div id="openLaxVowels">
+					</div>
+					<div id="openVowels">
+						<span title="U+0061: LATIN SMALL LETTER A" style="right:45.23%; top:84.84%"
+							onclick="playSound('a')">a</span>
 					</div>
 				</div>
 			</div>
