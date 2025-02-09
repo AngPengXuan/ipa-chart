@@ -229,7 +229,7 @@ div#nonPulmonicConsonants thead th {
 
 /* Vowel Quadrilateral ************************************/
 #vowels  {
-	float:left;
+	/* float:left; */
 	width:45%;
 	margin-bottom:2em;
 }
