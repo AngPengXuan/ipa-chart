@@ -27,6 +27,20 @@
 	outline:red solid 1px;
 }*/
 
+/* Make letters look clickable */
+span {
+	cursor: pointer;
+	padding: 5px;
+	font-size: 1.2em;
+	transition: background-color 0.3s ease;
+}
+
+/* Highlight the letter when hovered */
+span:hover {
+	background-color: lightgray;
+	border-radius: 4px;
+}
+
 a#keyboardLink {
 	position:fixed;
 	top:0px;
